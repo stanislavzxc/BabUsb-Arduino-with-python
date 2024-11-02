@@ -5,10 +5,12 @@ void setup() {
   delay(1000);
 
   //swicth language on english ===> if you have 2 language
-  Keyboard.press(KEY_LEFT_ALT);
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.releaseAll();
-  delay(200);
+            // Keyboard.press(KEY_LEFT_ALT);
+            // Keyboard.press(KEY_LEFT_SHIFT);
+            // Keyboard.releaseAll();
+            // delay(200);
+
+  
   // open PowerShell
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
